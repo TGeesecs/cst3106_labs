@@ -36,7 +36,7 @@ The system comprises three core entities:
 
 ### Entity: Priorities
 | Attribute | Data Type | Constraints | Description |
-|   
+| :--- | :--- | :--- | :--- |
 | `priority_id` | INT | **PRIMARY KEY** | Unique identifier for priority level. |
 | `level_name` | VARCHAR(20) | NOT NULL, UNIQUE | E.g., "Critical", "Urgent", "Stable". |
 | `color_code` | VARCHAR(7) | NOT NULL | Hex code (e.g., #E53935) for UI rendering. |
@@ -44,7 +44,7 @@ The system comprises three core entities:
 
 ### Entity: Rooms
 | Attribute | Data Type | Constraints | Description |
-|
+| :--- | :--- | :--- | :--- |
 | `room_id` | INT | **PRIMARY KEY** | Unique identifier for the room. |
 | `room_number` | VARCHAR(10) | NOT NULL, UNIQUE | Physical room label (e.g., "ER-101"). |
 | `department` | VARCHAR(50) | DEFAULT 'General' | Type of room (e.g., Trauma, General). |

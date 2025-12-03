@@ -45,47 +45,50 @@ In a medical context, clarity is important; the clean lines of *Roboto* prevent 
 
 ## 4. Layout and Navigation
 
-A. Patient Workflow (The Wizard)
+### A. Patient Workflow (The Wizard)
 We utilize a **Step-by-Step Wizard** layout to focus the patient's attention on one task at a time.
 
+```text
 +---------------------------------------------------------------+
-|   Hospital Triage                           [Step 1/2]        |
+|  Hospital Triage                              [Step 1/2]      |
 +---------------------------------------------------------------+
 |                                                               |
 |   Where does it hurt?                                         |
 |   (Select one area)                                           |
 |                                                               |
 |   +-----------+   +-----------+   +-----------+               |
-|   |   (icon)  |   |  (icon)   |   |   (icon)  |               |
-|   |   Head    |   |   Chest   |   |   Stomach |               |
+|   |   (icon)  |   |   (icon)  |   |   (icon)  |               |
+|   |    Head   |   |   Chest   |   |  Stomach  |               |
 |   +-----------+   +-----------+   +-----------+               |
 |                                                               |
 |   +-----------+   +-----------+   +-----------+               |
-|   |   (icon)  |   |  (icon)   |   |  (icon)   |               |
-|   |   Limbs   |   |   Skin    |   |   Other   |               |
+|   |   (icon)  |   |   (icon)  |   |   (icon)  |               |
+|   |    Limbs  |   |    Skin   |   |   Other   |               |
 |   +-----------+   +-----------+   +-----------+               |
 |                                                               |
 |                                              [ Next -> ]      |
 +---------------------------------------------------------------+
+
 +---------------------------------------------------------------+
-|   Hospital Triage                           [Step 2/2]        |
+|  Hospital Triage                              [Step 2/2]      |
 +---------------------------------------------------------------+
 |                                                               |
 |   How severe is the pain?                                     |
 |                                                               |
-|                        Moderate         Severe                |
-|                           |                |                  |
+|          Moderate                       Severe                |
+|             |                             |                   |
 |   [1]-------[3]-----------[5]-------------[8]-----[10]        |
 |                                                               |
 |   Current Level: 8 - Very High                                |
 |   (Slider changes color: Green -> Yellow -> Red)              |
 |                                                               |
 |   +-------------------------------------------------------+   |
-|   |               SUBMIT CHECK-IN                         |   |
+|   |                 SUBMIT CHECK-IN                       |   |
 |   +-------------------------------------------------------+   |
 +---------------------------------------------------------------+
 
 B. Admin Workflow (The Dashboard)
+
 We utilize a Single-View Dashboard layout for maximum data visibility.
 
 +---------------------------------------------------------------+
